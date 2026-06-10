@@ -97,7 +97,7 @@ class _CastToTvAppState extends State<CastToTvApp> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Cast to TV: Screen Mirroring',
+      title: 'Cast to TV + Screen Mirroring',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
