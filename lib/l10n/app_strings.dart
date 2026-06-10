@@ -49,7 +49,8 @@ class AppStrings {
 
   String get wifiNotice => _t({
     'en': 'Your TV and device must be connected to the same WiFi network',
-    'fr': 'Votre TV et votre appareil doivent être connectés au même réseau Wi-Fi',
+    'fr':
+        'Votre TV et votre appareil doivent être connectés au même réseau Wi-Fi',
     'es': 'Tu TV y tu dispositivo deben estar conectados a la misma red Wi-Fi',
     'ar': 'يجب أن يكون التلفاز والهاتف متصلين بنفس شبكة Wi-Fi',
   });
@@ -61,19 +62,11 @@ class AppStrings {
     'ar': 'كيف يعمل التطبيق',
   });
 
-  String get photo => _t({
-    'en': 'Photo',
-    'fr': 'Photo',
-    'es': 'Foto',
-    'ar': 'الصور',
-  });
+  String get photo =>
+      _t({'en': 'Photo', 'fr': 'Photo', 'es': 'Foto', 'ar': 'الصور'});
 
-  String get video => _t({
-    'en': 'Video',
-    'fr': 'Vidéo',
-    'es': 'Video',
-    'ar': 'الفيديو',
-  });
+  String get video =>
+      _t({'en': 'Video', 'fr': 'Vidéo', 'es': 'Video', 'ar': 'الفيديو'});
 
   String get browser => _t({
     'en': 'Browser',
@@ -99,12 +92,8 @@ class AppStrings {
     'ar': 'الإعدادات',
   });
 
-  String get language => _t({
-    'en': 'Language',
-    'fr': 'Langue',
-    'es': 'Idioma',
-    'ar': 'اللغة',
-  });
+  String get language =>
+      _t({'en': 'Language', 'fr': 'Langue', 'es': 'Idioma', 'ar': 'اللغة'});
 
   String get appearance => _t({
     'en': 'Appearance',
@@ -148,12 +137,8 @@ class AppStrings {
     'ar': 'مشاركة التطبيق',
   });
 
-  String get version => _t({
-    'en': 'Version',
-    'fr': 'Version',
-    'es': 'Versión',
-    'ar': 'الإصدار',
-  });
+  String get version =>
+      _t({'en': 'Version', 'fr': 'Version', 'es': 'Versión', 'ar': 'الإصدار'});
 
   String get giveUsFiveStar => _t({
     'en': 'Give us 5-star',
@@ -162,12 +147,8 @@ class AppStrings {
     'ar': 'قيّمنا بـ 5 نجوم',
   });
 
-  String get general => _t({
-    'en': 'General',
-    'fr': 'Général',
-    'es': 'General',
-    'ar': 'عام',
-  });
+  String get general =>
+      _t({'en': 'General', 'fr': 'Général', 'es': 'General', 'ar': 'عام'});
 
   String get howToUse => _t({
     'en': 'How to use',
@@ -248,9 +229,16 @@ class AppStrings {
   });
 
   // Onboarding
-  String get skip => _t({'en': 'Skip', 'fr': 'Passer', 'es': 'Omitir', 'ar': 'تخطي'});
-  String get next => _t({'en': 'Next', 'fr': 'Suivant', 'es': 'Siguiente', 'ar': 'التالي'});
-  String get getStarted => _t({'en': 'Get Started', 'fr': 'Commencer', 'es': 'Empezar', 'ar': 'ابدأ'});
+  String get skip =>
+      _t({'en': 'Skip', 'fr': 'Passer', 'es': 'Omitir', 'ar': 'تخطي'});
+  String get next =>
+      _t({'en': 'Next', 'fr': 'Suivant', 'es': 'Siguiente', 'ar': 'التالي'});
+  String get getStarted => _t({
+    'en': 'Get Started',
+    'fr': 'Commencer',
+    'es': 'Empezar',
+    'ar': 'ابدأ',
+  });
 
   String get onboarding1Title => _t({
     'en': 'Cast Photos & Videos',
@@ -260,26 +248,38 @@ class AppStrings {
   });
 
   String get onboarding1Body => _t({
-    'en': 'Choose photos or videos from your iPhone and use AirPlay to play them on your TV.',
-    'fr': 'Choisissez des photos ou vidéos sur votre iPhone et utilisez AirPlay pour les lire sur votre TV.',
-    'es': 'Elige fotos o videos de tu iPhone y usa AirPlay para reproducirlos en tu TV.',
-    'ar': 'اختر الصور أو الفيديو من هاتفك واستخدم AirPlay لتشغيلها على التلفاز.',
+    'en':
+        'Choose photos or videos from your iPhone and use AirPlay to play them on your TV.',
+    'fr':
+        'Choisissez des photos ou vidéos sur votre iPhone et utilisez AirPlay pour les lire sur votre TV.',
+    'es':
+        'Elige fotos o videos de tu iPhone y usa AirPlay para reproducirlos en tu TV.',
+    'ar':
+        'اختر الصور أو الفيديو من هاتفك واستخدم AirPlay لتشغيلها على التلفاز.',
   });
 
   String get onboarding2Title => connectToTv;
   String get onboarding2Body => _t({
-    'en': 'Make sure your iPhone and TV are connected to the same WiFi network. Your TV must support AirPlay.',
-    'fr': 'Assurez-vous que votre iPhone et votre TV sont sur le même réseau Wi-Fi. Votre TV doit prendre en charge AirPlay.',
-    'es': 'Asegúrate de que tu iPhone y tu TV estén en la misma red Wi-Fi. Tu TV debe ser compatible con AirPlay.',
-    'ar': 'تأكد من أن هاتفك والتلفاز متصلان بنفس شبكة Wi-Fi. يجب أن يدعم التلفاز AirPlay.',
+    'en':
+        'Make sure your iPhone and TV are connected to the same WiFi network. Your TV must support AirPlay.',
+    'fr':
+        'Assurez-vous que votre iPhone et votre TV sont sur le même réseau Wi-Fi. Votre TV doit prendre en charge AirPlay.',
+    'es':
+        'Asegúrate de que tu iPhone y tu TV estén en la misma red Wi-Fi. Tu TV debe ser compatible con AirPlay.',
+    'ar':
+        'تأكد من أن هاتفك والتلفاز متصلان بنفس شبكة Wi-Fi. يجب أن يدعم التلفاز AirPlay.',
   });
 
   String get onboarding3Title => screenMirroring;
   String get onboarding3Body => _t({
-    'en': 'Mirror your screen with AirPlay from Control Center, or start Wi‑Fi browser mirroring and open the link on your smart TV.',
-    'fr': 'Miroir d’écran via AirPlay depuis le Centre de contrôle, ou démarrez le miroir navigateur Wi‑Fi et ouvrez le lien sur votre smart TV.',
-    'es': 'Duplica tu pantalla con AirPlay desde el Centro de control, o inicia la duplicación por navegador Wi‑Fi y abre el enlace en tu smart TV.',
-    'ar': 'اعكس شاشتك عبر AirPlay من مركز التحكم، أو ابدأ انعكاس المتصفح عبر Wi‑Fi وافتح الرابط على التلفاز الذكي.',
+    'en':
+        'Mirror your screen with AirPlay from Control Center, or start Wi‑Fi browser mirroring and open the link on your smart TV.',
+    'fr':
+        'Miroir d’écran via AirPlay depuis le Centre de contrôle, ou démarrez le miroir navigateur Wi‑Fi et ouvrez le lien sur votre smart TV.',
+    'es':
+        'Duplica tu pantalla con AirPlay desde el Centro de control, o inicia la duplicación por navegador Wi‑Fi y abre el enlace en tu smart TV.',
+    'ar':
+        'اعكس شاشتك عبر AirPlay من مركز التحكم، أو ابدأ انعكاس المتصفح عبر Wi‑Fi وافتح الرابط على التلفاز الذكي.',
   });
 
   // Connect screen
@@ -299,7 +299,8 @@ class AppStrings {
 
   String get tapAirplayToChoose => _t({
     'en': 'Tap the AirPlay button to choose a device on your WiFi network.',
-    'fr': 'Touchez le bouton AirPlay pour choisir un appareil sur votre réseau Wi-Fi.',
+    'fr':
+        'Touchez le bouton AirPlay pour choisir un appareil sur votre réseau Wi-Fi.',
     'es': 'Toca el botón AirPlay para elegir un dispositivo en tu red Wi-Fi.',
     'ar': 'اضغط زر AirPlay لاختيار جهاز على شبكة Wi-Fi.',
   });
@@ -313,7 +314,8 @@ class AppStrings {
 
   String get sameWifiBody => _t({
     'en': 'Your iPhone and TV must be connected to the same WiFi network.',
-    'fr': 'Votre iPhone et votre TV doivent être connectés au même réseau Wi-Fi.',
+    'fr':
+        'Votre iPhone et votre TV doivent être connectés au même réseau Wi-Fi.',
     'es': 'Tu iPhone y tu TV deben estar conectados a la misma red Wi-Fi.',
     'ar': 'يجب أن يكون هاتفك والتلفاز متصلين بنفس شبكة Wi-Fi.',
   });
@@ -326,9 +328,12 @@ class AppStrings {
   });
 
   String get airplayEnabledBody => _t({
-    'en': 'On Apple TV, open Settings > AirPlay and make sure AirPlay is turned on.',
-    'fr': 'Sur Apple TV, ouvrez Réglages > AirPlay et assurez-vous qu’AirPlay est activé.',
-    'es': 'En Apple TV, abre Ajustes > AirPlay y asegúrate de que AirPlay esté activado.',
+    'en':
+        'On Apple TV, open Settings > AirPlay and make sure AirPlay is turned on.',
+    'fr':
+        'Sur Apple TV, ouvrez Réglages > AirPlay et assurez-vous qu’AirPlay est activé.',
+    'es':
+        'En Apple TV, abre Ajustes > AirPlay y asegúrate de que AirPlay esté activado.',
     'ar': 'على Apple TV، افتح الإعدادات > AirPlay وتأكد من تفعيله.',
   });
 
@@ -341,8 +346,10 @@ class AppStrings {
 
   String get disableVpnBody => _t({
     'en': 'VPNs can block local AirPlay discovery. Turn off VPN and try again.',
-    'fr': 'Les VPN peuvent bloquer la découverte AirPlay locale. Désactivez le VPN et réessayez.',
-    'es': 'Las VPN pueden bloquear el descubrimiento local de AirPlay. Desactiva la VPN e inténtalo de nuevo.',
+    'fr':
+        'Les VPN peuvent bloquer la découverte AirPlay locale. Désactivez le VPN et réessayez.',
+    'es':
+        'Las VPN pueden bloquear el descubrimiento local de AirPlay. Desactiva la VPN e inténtalo de nuevo.',
     'ar': 'قد تمنع VPN اكتشاف AirPlay المحلي. أوقف VPN وحاول مرة أخرى.',
   });
 
@@ -354,17 +361,25 @@ class AppStrings {
   });
 
   String get restartTvRouterBody => _t({
-    'en': 'If no device appears, restart your TV and WiFi router, then open this screen again.',
-    'fr': 'Si aucun appareil n’apparaît, redémarrez votre TV et routeur Wi-Fi, puis rouvrez cet écran.',
-    'es': 'Si no aparece ningún dispositivo, reinicia tu TV y router Wi-Fi y abre esta pantalla de nuevo.',
-    'ar': 'إذا لم يظهر أي جهاز، أعد تشغيل التلفاز وموجّه Wi-Fi ثم افتح هذه الشاشة مرة أخرى.',
+    'en':
+        'If no device appears, restart your TV and WiFi router, then open this screen again.',
+    'fr':
+        'Si aucun appareil n’apparaît, redémarrez votre TV et routeur Wi-Fi, puis rouvrez cet écran.',
+    'es':
+        'Si no aparece ningún dispositivo, reinicia tu TV y router Wi-Fi y abre esta pantalla de nuevo.',
+    'ar':
+        'إذا لم يظهر أي جهاز، أعد تشغيل التلفاز وموجّه Wi-Fi ثم افتح هذه الشاشة مرة أخرى.',
   });
 
   String get airplayTroubleshootNote => _t({
-    'en': 'If your device does not appear in AirPlay, the issue is usually network or AirPlay settings, not the app.',
-    'fr': 'Si votre appareil n’apparaît pas dans AirPlay, le problème vient généralement du réseau ou des réglages AirPlay, pas de l’app.',
-    'es': 'Si tu dispositivo no aparece en AirPlay, el problema suele ser la red o los ajustes de AirPlay, no la app.',
-    'ar': 'إذا لم يظهر جهازك في AirPlay، فالمشكلة عادة في الشبكة أو إعدادات AirPlay وليس التطبيق.',
+    'en':
+        'If your device does not appear in AirPlay, the issue is usually network or AirPlay settings, not the app.',
+    'fr':
+        'Si votre appareil n’apparaît pas dans AirPlay, le problème vient généralement du réseau ou des réglages AirPlay, pas de l’app.',
+    'es':
+        'Si tu dispositivo no aparece en AirPlay, el problema suele ser la red o los ajustes de AirPlay, no la app.',
+    'ar':
+        'إذا لم يظهر جهازك في AirPlay، فالمشكلة عادة في الشبكة أو إعدادات AirPlay وليس التطبيق.',
   });
 
   String get screenMirroringInstructions => _t({
@@ -383,10 +398,14 @@ class AppStrings {
   });
 
   String get mirroringBannerBody => _t({
-    'en': 'Mirror via AirPlay from Control Center, or stream your screen to a smart TV browser on the same Wi‑Fi.',
-    'fr': 'Miroir via AirPlay depuis le Centre de contrôle, ou diffusez votre écran vers le navigateur TV sur le même Wi‑Fi.',
-    'es': 'Duplica vía AirPlay desde el Centro de control, o transmite tu pantalla al navegador de la TV en la misma Wi‑Fi.',
-    'ar': 'اعكس عبر AirPlay من مركز التحكم، أو بث شاشتك إلى متصفح التلفاز على نفس شبكة Wi‑Fi.',
+    'en':
+        'Mirror via AirPlay from Control Center, or stream your screen to a smart TV browser on the same Wi‑Fi.',
+    'fr':
+        'Miroir via AirPlay depuis le Centre de contrôle, ou diffusez votre écran vers le navigateur TV sur le même Wi‑Fi.',
+    'es':
+        'Duplica vía AirPlay desde el Centro de control, o transmite tu pantalla al navegador de la TV en la misma Wi‑Fi.',
+    'ar':
+        'اعكس عبر AirPlay من مركز التحكم، أو بث شاشتك إلى متصفح التلفاز على نفس شبكة Wi‑Fi.',
   });
 
   String get airPlayMirrorStatus => _t({
@@ -425,10 +444,14 @@ class AppStrings {
   });
 
   String get wifiTvMirrorBody => _t({
-    'en': 'Start mirroring, then open the link below in your TV web browser (Samsung, LG, etc.).',
-    'fr': 'Démarrez le miroir, puis ouvrez le lien ci-dessous dans le navigateur web de votre TV (Samsung, LG, etc.).',
-    'es': 'Inicia la duplicación y abre el enlace en el navegador web de tu TV (Samsung, LG, etc.).',
-    'ar': 'ابدأ الانعكاس ثم افتح الرابط أدناه في متصفح التلفاز (Samsung، LG، إلخ).',
+    'en':
+        'Start mirroring, then open the link below in your TV web browser (Samsung, LG, etc.).',
+    'fr':
+        'Démarrez le miroir, puis ouvrez le lien ci-dessous dans le navigateur web de votre TV (Samsung, LG, etc.).',
+    'es':
+        'Inicia la duplicación y abre el enlace en el navegador web de tu TV (Samsung, LG, etc.).',
+    'ar':
+        'ابدأ الانعكاس ثم افتح الرابط أدناه في متصفح التلفاز (Samsung، LG، إلخ).',
   });
 
   String get startMirroring => _t({
@@ -467,9 +490,12 @@ class AppStrings {
   });
 
   String get mirrorStartFailed => _t({
-    'en': 'Could not start screen mirroring. Allow screen recording when prompted.',
-    'fr': 'Impossible de démarrer le miroir. Autorisez l’enregistrement d’écran lorsque demandé.',
-    'es': 'No se pudo iniciar la duplicación. Permite la grabación de pantalla cuando se solicite.',
+    'en':
+        'Could not start screen mirroring. Allow screen recording when prompted.',
+    'fr':
+        'Impossible de démarrer le miroir. Autorisez l’enregistrement d’écran lorsque demandé.',
+    'es':
+        'No se pudo iniciar la duplicación. Permite la grabación de pantalla cuando se solicite.',
     'ar': 'تعذر بدء الانعكاس. اسمح بتسجيل الشاشة عند الطلب.',
   });
 
@@ -510,16 +536,22 @@ class AppStrings {
 
   String get step4Body => _t({
     'en': 'To stop, open Control Center again and tap Stop Mirroring.',
-    'fr': 'Pour arrêter, rouvrez le Centre de contrôle et touchez Arrêter le miroir.',
-    'es': 'Para detener, abre el Centro de control de nuevo y toca Dejar de duplicar.',
+    'fr':
+        'Pour arrêter, rouvrez le Centre de contrôle et touchez Arrêter le miroir.',
+    'es':
+        'Para detener, abre el Centro de control de nuevo y toca Dejar de duplicar.',
     'ar': 'للإيقاف، افتح مركز التحكم مرة أخرى واضغط إيقاف الانعكاس.',
   });
 
   String get mirroringWarning => _t({
-    'en': 'AirPlay mirroring is started from Control Center. Wi‑Fi browser mirroring requires the same Wi‑Fi network on phone and TV.',
-    'fr': 'Le miroir AirPlay se lance depuis le Centre de contrôle. Le miroir navigateur Wi‑Fi nécessite le même réseau Wi‑Fi.',
-    'es': 'La duplicación AirPlay se inicia desde el Centro de control. La duplicación por navegador Wi‑Fi requiere la misma red Wi‑Fi.',
-    'ar': 'يبدأ انعكاس AirPlay من مركز التحكم. انعكاس المتصفح عبر Wi‑Fi يتطلب نفس شبكة Wi‑Fi للهاتف والتلفاز.',
+    'en':
+        'AirPlay mirroring is started from Control Center. Wi‑Fi browser mirroring requires the same Wi‑Fi network on phone and TV.',
+    'fr':
+        'Le miroir AirPlay se lance depuis le Centre de contrôle. Le miroir navigateur Wi‑Fi nécessite le même réseau Wi‑Fi.',
+    'es':
+        'La duplicación AirPlay se inicia desde el Centro de control. La duplicación por navegador Wi‑Fi requiere la misma red Wi‑Fi.',
+    'ar':
+        'يبدأ انعكاس AirPlay من مركز التحكم. انعكاس المتصفح عبر Wi‑Fi يتطلب نفس شبكة Wi‑Fi للهاتف والتلفاز.',
   });
 
   String get viewDetailedInstructions => _t({
@@ -538,9 +570,12 @@ class AppStrings {
   });
 
   String get choosePhotoMessage => _t({
-    'en': 'Choose a photo from your library to preview it and cast with AirPlay.',
-    'fr': 'Choisissez une photo dans votre bibliothèque pour la prévisualiser et la diffuser avec AirPlay.',
-    'es': 'Elige una foto de tu biblioteca para previsualizarla y transmitirla con AirPlay.',
+    'en':
+        'Choose a photo from your library to preview it and cast with AirPlay.',
+    'fr':
+        'Choisissez une photo dans votre bibliothèque pour la prévisualiser et la diffuser avec AirPlay.',
+    'es':
+        'Elige una foto de tu biblioteca para previsualizarla y transmitirla con AirPlay.',
     'ar': 'اختر صورة من مكتبتك لمعاينتها وبثها عبر AirPlay.',
   });
 
@@ -567,14 +602,16 @@ class AppStrings {
 
   String get noPhotoCancelled => _t({
     'en': 'No photo selected. You can choose one anytime.',
-    'fr': 'Aucune photo sélectionnée. Vous pouvez en choisir une à tout moment.',
+    'fr':
+        'Aucune photo sélectionnée. Vous pouvez en choisir une à tout moment.',
     'es': 'Ninguna foto seleccionada. Puedes elegir una en cualquier momento.',
     'ar': 'لم يتم اختيار صورة. يمكنك الاختيار في أي وقت.',
   });
 
   String get photoStillShown => _t({
     'en': 'No photo selected. Your current photo is still shown.',
-    'fr': 'Aucune photo sélectionnée. Votre photo actuelle est toujours affichée.',
+    'fr':
+        'Aucune photo sélectionnée. Votre photo actuelle est toujours affichée.',
     'es': 'Ninguna foto seleccionada. Tu foto actual sigue mostrándose.',
     'ar': 'لم يتم اختيار صورة. صورتك الحالية لا تزال معروضة.',
   });
@@ -588,7 +625,8 @@ class AppStrings {
 
   String get tapAirplayPhoto => _t({
     'en': 'Tap AirPlay to show this photo on a compatible device.',
-    'fr': 'Touchez AirPlay pour afficher cette photo sur un appareil compatible.',
+    'fr':
+        'Touchez AirPlay pour afficher cette photo sur un appareil compatible.',
     'es': 'Toca AirPlay para mostrar esta foto en un dispositivo compatible.',
     'ar': 'اضغط AirPlay لعرض هذه الصورة على جهاز متوافق.',
   });
@@ -603,10 +641,14 @@ class AppStrings {
   String get airplay => 'AirPlay';
 
   String get photoAirplayHint => _t({
-    'en': 'If no device appears, make sure your iPhone and TV are on the same WiFi and AirPlay is enabled on your TV or Mac.',
-    'fr': 'Si aucun appareil n’apparaît, assurez-vous que votre iPhone et votre TV sont sur le même Wi-Fi et qu’AirPlay est activé.',
-    'es': 'Si no aparece ningún dispositivo, asegúrate de que tu iPhone y TV estén en la misma Wi-Fi y que AirPlay esté activado.',
-    'ar': 'إذا لم يظهر جهاز، تأكد من أن الهاتف والتلفاز على نفس Wi-Fi وأن AirPlay مفعّل.',
+    'en':
+        'If no device appears, make sure your iPhone and TV are on the same WiFi and AirPlay is enabled on your TV or Mac.',
+    'fr':
+        'Si aucun appareil n’apparaît, assurez-vous que votre iPhone et votre TV sont sur le même Wi-Fi et qu’AirPlay est activé.',
+    'es':
+        'Si no aparece ningún dispositivo, asegúrate de que tu iPhone y TV estén en la misma Wi-Fi y que AirPlay esté activado.',
+    'ar':
+        'إذا لم يظهر جهاز، تأكد من أن الهاتف والتلفاز على نفس Wi-Fi وأن AirPlay مفعّل.',
   });
 
   // Video
@@ -619,8 +661,10 @@ class AppStrings {
 
   String get chooseVideoMessage => _t({
     'en': 'Choose a video from your library to play it with AirPlay support.',
-    'fr': 'Choisissez une vidéo dans votre bibliothèque pour la lire avec AirPlay.',
-    'es': 'Elige un video de tu biblioteca para reproducirlo con soporte AirPlay.',
+    'fr':
+        'Choisissez une vidéo dans votre bibliothèque pour la lire avec AirPlay.',
+    'es':
+        'Elige un video de tu biblioteca para reproducirlo con soporte AirPlay.',
     'ar': 'اختر فيديو من مكتبتك لتشغيله مع دعم AirPlay.',
   });
 
@@ -675,14 +719,16 @@ class AppStrings {
 
   String get noVideoCancelled => _t({
     'en': 'No video selected. You can choose one anytime.',
-    'fr': 'Aucune vidéo sélectionnée. Vous pouvez en choisir une à tout moment.',
+    'fr':
+        'Aucune vidéo sélectionnée. Vous pouvez en choisir une à tout moment.',
     'es': 'Ningún video seleccionado. Puedes elegir uno en cualquier momento.',
     'ar': 'لم يتم اختيار فيديو. يمكنك الاختيار في أي وقت.',
   });
 
   String get videoStillLoaded => _t({
     'en': 'No video selected. Your current video is still loaded.',
-    'fr': 'Aucune vidéo sélectionnée. Votre vidéo actuelle est toujours chargée.',
+    'fr':
+        'Aucune vidéo sélectionnée. Votre vidéo actuelle est toujours chargée.',
     'es': 'Ningún video seleccionado. Tu video actual sigue cargado.',
     'ar': 'لم يتم اختيار فيديو. الفيديو الحالي لا يزال محمّلًا.',
   });
@@ -709,10 +755,14 @@ class AppStrings {
   });
 
   String get castVideoBody => _t({
-    'en': 'After selecting a video, use the AirPlay button in the player controls or below to stream to Apple TV or an AirPlay-compatible device.',
-    'fr': 'Après avoir sélectionné une vidéo, utilisez le bouton AirPlay dans les contrôles du lecteur ou ci-dessous pour diffuser vers Apple TV ou un appareil compatible AirPlay.',
-    'es': 'Después de seleccionar un video, usa el botón AirPlay en los controles del reproductor o abajo para transmitir a Apple TV o un dispositivo compatible con AirPlay.',
-    'ar': 'بعد اختيار فيديو، استخدم زر AirPlay في عناصر التحكم بالمشغل أو أدناه للبث إلى Apple TV أو جهاز متوافق مع AirPlay.',
+    'en':
+        'After selecting a video, use the AirPlay button in the player controls or below to stream to Apple TV or an AirPlay-compatible device.',
+    'fr':
+        'Après avoir sélectionné une vidéo, utilisez le bouton AirPlay dans les contrôles du lecteur ou ci-dessous pour diffuser vers Apple TV ou un appareil compatible AirPlay.',
+    'es':
+        'Después de seleccionar un video, usa el botón AirPlay en los controles del reproductor o abajo para transmitir a Apple TV o un dispositivo compatible con AirPlay.',
+    'ar':
+        'بعد اختيار فيديو، استخدم زر AirPlay في عناصر التحكم بالمشغل أو أدناه للبث إلى Apple TV أو جهاز متوافق مع AirPlay.',
   });
 
   String get castToTv => _t({
@@ -723,10 +773,14 @@ class AppStrings {
   });
 
   String get castVideoPlayerBody => _t({
-    'en': 'Use the AirPlay button in the player controls to stream this video to Apple TV or an AirPlay-compatible device.',
-    'fr': 'Utilisez le bouton AirPlay dans les contrôles du lecteur pour diffuser cette vidéo vers Apple TV ou un appareil compatible AirPlay.',
-    'es': 'Usa el botón AirPlay en los controles del reproductor para transmitir este video a Apple TV o un dispositivo compatible con AirPlay.',
-    'ar': 'استخدم زر AirPlay في عناصر التحكم بالمشغل لبث هذا الفيديو إلى Apple TV أو جهاز متوافق مع AirPlay.',
+    'en':
+        'Use the AirPlay button in the player controls to stream this video to Apple TV or an AirPlay-compatible device.',
+    'fr':
+        'Utilisez le bouton AirPlay dans les contrôles du lecteur pour diffuser cette vidéo vers Apple TV ou un appareil compatible AirPlay.',
+    'es':
+        'Usa el botón AirPlay en los controles del reproductor para transmitir este video a Apple TV o un dispositivo compatible con AirPlay.',
+    'ar':
+        'استخدم زر AirPlay في عناصر التحكم بالمشغل لبث هذا الفيديو إلى Apple TV أو جهاز متوافق مع AirPlay.',
   });
 
   String get orPickDevice => _t({
@@ -781,10 +835,14 @@ class AppStrings {
 
   // Link video
   String pasteLinkDescription(String label) => _t({
-    'en': 'Paste a $label video link to open it in the in-app browser. You can then use AirPlay from the browser toolbar to cast to your TV.',
-    'fr': 'Collez un lien vidéo $label pour l’ouvrir dans le navigateur intégré. Vous pourrez ensuite utiliser AirPlay depuis la barre d’outils pour diffuser sur votre TV.',
-    'es': 'Pega un enlace de video de $label para abrirlo en el navegador integrado. Luego puedes usar AirPlay desde la barra de herramientas para transmitir a tu TV.',
-    'ar': 'الصق رابط فيديو $label لفتحه في المتصفح داخل التطبيق. ثم يمكنك استخدام AirPlay من شريط الأدوات للبث إلى التلفاز.',
+    'en':
+        'Paste a $label video link to open it in the in-app browser. You can then use AirPlay from the browser toolbar to cast to your TV.',
+    'fr':
+        'Collez un lien vidéo $label pour l’ouvrir dans le navigateur intégré. Vous pourrez ensuite utiliser AirPlay depuis la barre d’outils pour diffuser sur votre TV.',
+    'es':
+        'Pega un enlace de video de $label para abrirlo en el navegador integrado. Luego puedes usar AirPlay desde la barra de herramientas para transmitir a tu TV.',
+    'ar':
+        'الصق رابط فيديو $label لفتحه في المتصفح داخل التطبيق. ثم يمكنك استخدام AirPlay من شريط الأدوات للبث إلى التلفاز.',
   });
 
   String linkLabel(String label) => _t({
@@ -838,10 +896,14 @@ class AppStrings {
   });
 
   String get aboutRemoteBody => _t({
-    'en': 'This app uses Apple\'s native AirPlay features. It does not emulate a universal TV remote or claim control over TVs that are not connected through supported Apple protocols.',
-    'fr': 'Cette app utilise les fonctionnalités AirPlay natives d’Apple. Elle n’émule pas une télécommande universelle ni ne prétend contrôler des TV non connectées via les protocoles Apple pris en charge.',
-    'es': 'Esta app usa las funciones nativas de AirPlay de Apple. No emula un control remoto universal ni controla TVs no conectadas mediante protocolos Apple compatibles.',
-    'ar': 'يستخدم هذا التطبيق ميزات AirPlay الأصلية من Apple. لا يحاكي جهاز تحكم عن بُعد عام ولا يدّعي التحكم بأجهزة تلفاز غير متصلة عبر بروتوكولات Apple المدعومة.',
+    'en':
+        'This app uses Apple\'s native AirPlay features. It does not emulate a universal TV remote or claim control over TVs that are not connected through supported Apple protocols.',
+    'fr':
+        'Cette app utilise les fonctionnalités AirPlay natives d’Apple. Elle n’émule pas une télécommande universelle ni ne prétend contrôler des TV non connectées via les protocoles Apple pris en charge.',
+    'es':
+        'Esta app usa las funciones nativas de AirPlay de Apple. No emula un control remoto universal ni controla TVs no conectadas mediante protocolos Apple compatibles.',
+    'ar':
+        'يستخدم هذا التطبيق ميزات AirPlay الأصلية من Apple. لا يحاكي جهاز تحكم عن بُعد عام ولا يدّعي التحكم بأجهزة تلفاز غير متصلة عبر بروتوكولات Apple المدعومة.',
   });
 
   String get whenAirplayActive => _t({
@@ -852,24 +914,35 @@ class AppStrings {
   });
 
   String get remoteStep1 => _t({
-    'en': 'Use Control Center volume controls to adjust playback volume while casting.',
-    'fr': 'Utilisez les contrôles de volume du Centre de contrôle pendant la diffusion.',
-    'es': 'Usa los controles de volumen del Centro de control mientras transmites.',
+    'en':
+        'Use Control Center volume controls to adjust playback volume while casting.',
+    'fr':
+        'Utilisez les contrôles de volume du Centre de contrôle pendant la diffusion.',
+    'es':
+        'Usa los controles de volumen del Centro de control mientras transmites.',
     'ar': 'استخدم عناصر التحكم بالصوت في مركز التحكم أثناء البث.',
   });
 
   String get remoteStep2 => _t({
-    'en': 'Use the Now Playing card in Control Center to pause or skip AirPlay audio.',
-    'fr': 'Utilisez la carte En cours de lecture dans le Centre de contrôle pour mettre en pause ou passer l’audio AirPlay.',
-    'es': 'Usa la tarjeta En reproducción en el Centro de control para pausar o saltar audio AirPlay.',
-    'ar': 'استخدم بطاقة التشغيل الحالي في مركز التحكم لإيقاف مؤقت أو تخطي صوت AirPlay.',
+    'en':
+        'Use the Now Playing card in Control Center to pause or skip AirPlay audio.',
+    'fr':
+        'Utilisez la carte En cours de lecture dans le Centre de contrôle pour mettre en pause ou passer l’audio AirPlay.',
+    'es':
+        'Usa la tarjeta En reproducción en el Centro de control para pausar o saltar audio AirPlay.',
+    'ar':
+        'استخدم بطاقة التشغيل الحالي في مركز التحكم لإيقاف مؤقت أو تخطي صوت AirPlay.',
   });
 
   String get remoteStep3 => _t({
-    'en': 'For Apple TV, use the Apple TV Remote in Control Center or the Apple TV Remote app.',
-    'fr': 'Pour Apple TV, utilisez la télécommande Apple TV dans le Centre de contrôle ou l’app Apple TV Remote.',
-    'es': 'Para Apple TV, usa el control remoto de Apple TV en el Centro de control o la app Apple TV Remote.',
-    'ar': 'لـ Apple TV، استخدم جهاز التحكم Apple TV في مركز التحكم أو تطبيق Apple TV Remote.',
+    'en':
+        'For Apple TV, use the Apple TV Remote in Control Center or the Apple TV Remote app.',
+    'fr':
+        'Pour Apple TV, utilisez la télécommande Apple TV dans le Centre de contrôle ou l’app Apple TV Remote.',
+    'es':
+        'Para Apple TV, usa el control remoto de Apple TV en el Centro de control o la app Apple TV Remote.',
+    'ar':
+        'لـ Apple TV، استخدم جهاز التحكم Apple TV في مركز التحكم أو تطبيق Apple TV Remote.',
   });
 
   String get connectFirst => _t({
@@ -880,10 +953,14 @@ class AppStrings {
   });
 
   String get connectFirstBody => _t({
-    'en': 'Remote-style controls work best after you connect to a TV via AirPlay.',
-    'fr': 'Les contrôles de type télécommande fonctionnent mieux après connexion à une TV via AirPlay.',
-    'es': 'Los controles tipo remoto funcionan mejor después de conectar a una TV vía AirPlay.',
-    'ar': 'تعمل عناصر التحكم عن بُعد بشكل أفضل بعد الاتصال بالتلفاز عبر AirPlay.',
+    'en':
+        'Remote-style controls work best after you connect to a TV via AirPlay.',
+    'fr':
+        'Les contrôles de type télécommande fonctionnent mieux après connexion à une TV via AirPlay.',
+    'es':
+        'Los controles tipo remoto funcionan mejor después de conectar a una TV vía AirPlay.',
+    'ar':
+        'تعمل عناصر التحكم عن بُعد بشكل أفضل بعد الاتصال بالتلفاز عبر AirPlay.',
   });
 
   String get pickAirplayDevice => _t({
@@ -917,21 +994,25 @@ class AppStrings {
 
   String get beforeStep1 => _t({
     'en': 'Ensure your iPhone and TV are on the same WiFi network.',
-    'fr': 'Assurez-vous que votre iPhone et votre TV sont sur le même réseau Wi-Fi.',
+    'fr':
+        'Assurez-vous que votre iPhone et votre TV sont sur le même réseau Wi-Fi.',
     'es': 'Asegúrate de que tu iPhone y TV estén en la misma red Wi-Fi.',
     'ar': 'تأكد من أن هاتفك والتلفاز على نفس شبكة Wi-Fi.',
   });
 
   String get beforeStep2 => _t({
     'en': 'Wake your TV and confirm AirPlay or Screen Mirroring is supported.',
-    'fr': 'Allumez votre TV et confirmez que AirPlay ou le miroir d’écran est pris en charge.',
-    'es': 'Enciende tu TV y confirma que AirPlay o Duplicar pantalla es compatible.',
+    'fr':
+        'Allumez votre TV et confirmez que AirPlay ou le miroir d’écran est pris en charge.',
+    'es':
+        'Enciende tu TV y confirma que AirPlay o Duplicar pantalla es compatible.',
     'ar': 'شغّل التلفاز وتأكد من دعم AirPlay أو انعكاس الشاشة.',
   });
 
   String get beforeStep3 => _t({
     'en': 'Disable VPN if your TV does not appear in the device list.',
-    'fr': 'Désactivez le VPN si votre TV n’apparaît pas dans la liste des appareils.',
+    'fr':
+        'Désactivez le VPN si votre TV n’apparaît pas dans la liste des appareils.',
     'es': 'Desactiva la VPN si tu TV no aparece en la lista de dispositivos.',
     'ar': 'أوقف VPN إذا لم يظهر التلفاز في قائمة الأجهزة.',
   });
@@ -944,10 +1025,14 @@ class AppStrings {
   });
 
   String get ccStep1 => _t({
-    'en': 'Swipe down from the top-right corner of your iPhone (or up from the bottom on older models) to open Control Center.',
-    'fr': 'Balayez depuis le coin supérieur droit de votre iPhone (ou depuis le bas sur les anciens modèles) pour ouvrir le Centre de contrôle.',
-    'es': 'Desliza desde la esquina superior derecha de tu iPhone (o desde abajo en modelos antiguos) para abrir el Centro de control.',
-    'ar': 'اسحب من الزاوية العلوية اليمنى لهاتفك (أو من الأسفل في الطرازات الأقدم) لفتح مركز التحكم.',
+    'en':
+        'Swipe down from the top-right corner of your iPhone (or up from the bottom on older models) to open Control Center.',
+    'fr':
+        'Balayez depuis le coin supérieur droit de votre iPhone (ou depuis le bas sur les anciens modèles) pour ouvrir le Centre de contrôle.',
+    'es':
+        'Desliza desde la esquina superior derecha de tu iPhone (o desde abajo en modelos antiguos) para abrir el Centro de control.',
+    'ar':
+        'اسحب من الزاوية العلوية اليمنى لهاتفك (أو من الأسفل في الطرازات الأقدم) لفتح مركز التحكم.',
   });
 
   String get ccStep4 => _t({
@@ -958,10 +1043,14 @@ class AppStrings {
   });
 
   String get ccStep5 => _t({
-    'en': 'To stop mirroring, open Control Center and tap Screen Mirroring again, then tap Stop Mirroring.',
-    'fr': 'Pour arrêter, ouvrez le Centre de contrôle, touchez à nouveau Miroir d’écran, puis Arrêter le miroir.',
-    'es': 'Para detener, abre el Centro de control, toca Duplicar pantalla de nuevo y luego Dejar de duplicar.',
-    'ar': 'للإيقاف، افتح مركز التحكم واضغط انعكاس الشاشة مرة أخرى ثم إيقاف الانعكاس.',
+    'en':
+        'To stop mirroring, open Control Center and tap Screen Mirroring again, then tap Stop Mirroring.',
+    'fr':
+        'Pour arrêter, ouvrez le Centre de contrôle, touchez à nouveau Miroir d’écran, puis Arrêter le miroir.',
+    'es':
+        'Para detener, abre el Centro de control, toca Duplicar pantalla de nuevo y luego Dejar de duplicar.',
+    'ar':
+        'للإيقاف، افتح مركز التحكم واضغط انعكاس الشاشة مرة أخرى ثم إيقاف الانعكاس.',
   });
 
   String get airplayForVideo => _t({
@@ -972,10 +1061,14 @@ class AppStrings {
   });
 
   String get airplayForVideoBody => _t({
-    'en': 'For videos, you can use AirPlay without full screen mirroring. Play a video in this app and tap the AirPlay icon in the player.',
-    'fr': 'Pour les vidéos, vous pouvez utiliser AirPlay sans miroir plein écran. Lisez une vidéo dans cette app et touchez l’icône AirPlay dans le lecteur.',
-    'es': 'Para videos, puedes usar AirPlay sin duplicación completa. Reproduce un video en esta app y toca el icono AirPlay en el reproductor.',
-    'ar': 'للفيديو، يمكنك استخدام AirPlay دون انعكاس كامل للشاشة. شغّل فيديو في هذا التطبيق واضغط أيقونة AirPlay في المشغل.',
+    'en':
+        'For videos, you can use AirPlay without full screen mirroring. Play a video in this app and tap the AirPlay icon in the player.',
+    'fr':
+        'Pour les vidéos, vous pouvez utiliser AirPlay sans miroir plein écran. Lisez une vidéo dans cette app et touchez l’icône AirPlay dans le lecteur.',
+    'es':
+        'Para videos, puedes usar AirPlay sin duplicación completa. Reproduce un video en esta app y toca el icono AirPlay en el reproductor.',
+    'ar':
+        'للفيديو، يمكنك استخدام AirPlay دون انعكاس كامل للشاشة. شغّل فيديو في هذا التطبيق واضغط أيقونة AirPlay في المشغل.',
   });
 
   // Misc
@@ -988,8 +1081,10 @@ class AppStrings {
 
   String get rateAppMessage => _t({
     'en': 'App Store rating will be available after the app is published.',
-    'fr': 'La notation App Store sera disponible après la publication de l’app.',
-    'es': 'La valoración en App Store estará disponible después de publicar la app.',
+    'fr':
+        'La notation App Store sera disponible après la publication de l’app.',
+    'es':
+        'La valoración en App Store estará disponible después de publicar la app.',
     'ar': 'سيكون التقييم على App Store متاحًا بعد نشر التطبيق.',
   });
 

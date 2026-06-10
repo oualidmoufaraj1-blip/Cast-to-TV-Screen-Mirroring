@@ -74,7 +74,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     style: TextStyle(color: sheetContext.primaryText),
                   ),
                   trailing: current == locale.languageCode
-                      ? const Icon(Icons.check_rounded, color: AppColors.accentBlue)
+                      ? const Icon(
+                          Icons.check_rounded,
+                          color: AppColors.accentBlue,
+                        )
                       : null,
                   onTap: () async {
                     await HapticService.selectionClick();
@@ -104,7 +107,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
       builder: (sheetContext) {
         Widget tile(String label, AppAppearance appearance, ThemeMode mode) {
           return ListTile(
-            title: Text(label, style: TextStyle(color: sheetContext.primaryText)),
+            title: Text(
+              label,
+              style: TextStyle(color: sheetContext.primaryText),
+            ),
             trailing: current == appearance
                 ? const Icon(Icons.check_rounded, color: AppColors.accentBlue)
                 : null,
@@ -163,7 +169,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
       appBar: AppBar(
         backgroundColor: context.settingsBackground,
         leading: IconButton(
-          icon: Icon(Icons.arrow_back_ios_new_rounded, size: 20, color: context.primaryText),
+          icon: Icon(
+            Icons.arrow_back_ios_new_rounded,
+            size: 20,
+            color: context.primaryText,
+          ),
           onPressed: () => NavigationHelper.popWithInterstitial(context),
         ),
         title: Text(
@@ -193,14 +203,20 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      LocaleService.languageLabelForLocale(AppController.instance.locale),
+                      LocaleService.languageLabelForLocale(
+                        AppController.instance.locale,
+                      ),
                       style: const TextStyle(
                         color: AppColors.accentBlue,
                         fontSize: 14,
                         fontWeight: FontWeight.w500,
                       ),
                     ),
-                    Icon(Icons.chevron_right_rounded, color: context.secondaryText, size: 22),
+                    Icon(
+                      Icons.chevron_right_rounded,
+                      color: context.secondaryText,
+                      size: 22,
+                    ),
                   ],
                 ),
               ),
@@ -223,7 +239,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         fontWeight: FontWeight.w500,
                       ),
                     ),
-                    Icon(Icons.chevron_right_rounded, color: context.secondaryText, size: 22),
+                    Icon(
+                      Icons.chevron_right_rounded,
+                      color: context.secondaryText,
+                      size: 22,
+                    ),
                   ],
                 ),
               ),
@@ -247,26 +267,47 @@ class _SettingsScreenState extends State<SettingsScreen> {
             title: l10n.howToUse,
             children: [
               SettingsTile(
-                icon: const CircleIcon(icon: Icons.wifi_rounded, color: AppColors.accentBlue),
+                icon: const CircleIcon(
+                  icon: Icons.wifi_rounded,
+                  color: AppColors.accentBlue,
+                ),
                 iconColor: AppColors.accentBlue,
                 title: l10n.connectToTv,
                 onTap: () => _actions.openConnect(context),
-                trailing: Icon(Icons.chevron_right_rounded, color: context.secondaryText, size: 22),
+                trailing: Icon(
+                  Icons.chevron_right_rounded,
+                  color: context.secondaryText,
+                  size: 22,
+                ),
               ),
               SettingsTile(
-                icon: const CircleIcon(icon: Icons.cast_rounded, color: AppColors.accentBlue),
+                icon: const CircleIcon(
+                  icon: Icons.cast_rounded,
+                  color: AppColors.accentBlue,
+                ),
                 iconColor: AppColors.accentBlue,
                 title: l10n.castConnectionGuide,
                 onTap: () => _actions.openCastConnectionGuide(context),
-                trailing: Icon(Icons.chevron_right_rounded, color: context.secondaryText, size: 22),
+                trailing: Icon(
+                  Icons.chevron_right_rounded,
+                  color: context.secondaryText,
+                  size: 22,
+                ),
               ),
               SettingsTile(
-                icon: const CircleIcon(icon: Icons.screen_share_rounded, color: Color(0xFFFF9500)),
+                icon: const CircleIcon(
+                  icon: Icons.screen_share_rounded,
+                  color: Color(0xFFFF9500),
+                ),
                 iconColor: const Color(0xFFFF9500),
                 title: l10n.screenMirror,
                 onTap: () => _actions.openScreenMirror(context),
                 showDivider: false,
-                trailing: Icon(Icons.chevron_right_rounded, color: context.secondaryText, size: 22),
+                trailing: Icon(
+                  Icons.chevron_right_rounded,
+                  color: context.secondaryText,
+                  size: 22,
+                ),
               ),
             ],
           ),
@@ -275,42 +316,80 @@ class _SettingsScreenState extends State<SettingsScreen> {
             title: l10n.moreSettings,
             children: [
               SettingsTile(
-                icon: const CircleIcon(icon: Icons.star_rounded, color: Color(0xFFFF9500)),
+                icon: const CircleIcon(
+                  icon: Icons.star_rounded,
+                  color: Color(0xFFFF9500),
+                ),
                 iconColor: const Color(0xFFFF9500),
                 title: l10n.giveUsFiveStar,
                 onTap: () => SettingsActionsService.rateApp(context),
-                trailing: Icon(Icons.chevron_right_rounded, color: context.secondaryText, size: 22),
+                trailing: Icon(
+                  Icons.chevron_right_rounded,
+                  color: context.secondaryText,
+                  size: 22,
+                ),
               ),
               SettingsTile(
-                icon: const CircleIcon(icon: Icons.chat_bubble_outline_rounded, color: Color(0xFFFF2D55)),
+                icon: const CircleIcon(
+                  icon: Icons.chat_bubble_outline_rounded,
+                  color: Color(0xFFFF2D55),
+                ),
                 iconColor: const Color(0xFFFF2D55),
                 title: l10n.contactUs,
                 onTap: () => SettingsActionsService.contactUs(context),
-                trailing: Icon(Icons.chevron_right_rounded, color: context.secondaryText, size: 22),
+                trailing: Icon(
+                  Icons.chevron_right_rounded,
+                  color: context.secondaryText,
+                  size: 22,
+                ),
               ),
               SettingsTile(
-                icon: const CircleIcon(icon: Icons.share_rounded, color: AppColors.accentBlue),
+                icon: const CircleIcon(
+                  icon: Icons.share_rounded,
+                  color: AppColors.accentBlue,
+                ),
                 iconColor: AppColors.accentBlue,
                 title: l10n.shareApp,
                 onTap: () => SettingsActionsService.shareApp(context),
-                trailing: Icon(Icons.chevron_right_rounded, color: context.secondaryText, size: 22),
+                trailing: Icon(
+                  Icons.chevron_right_rounded,
+                  color: context.secondaryText,
+                  size: 22,
+                ),
               ),
               SettingsTile(
-                icon: const CircleIcon(icon: Icons.shield_rounded, color: Color(0xFFAF52DE)),
+                icon: const CircleIcon(
+                  icon: Icons.shield_rounded,
+                  color: Color(0xFFAF52DE),
+                ),
                 iconColor: const Color(0xFFAF52DE),
                 title: l10n.privacyPolicy,
                 onTap: () => SettingsActionsService.openPrivacyPolicy(context),
-                trailing: Icon(Icons.chevron_right_rounded, color: context.secondaryText, size: 22),
+                trailing: Icon(
+                  Icons.chevron_right_rounded,
+                  color: context.secondaryText,
+                  size: 22,
+                ),
               ),
               SettingsTile(
-                icon: const CircleIcon(icon: Icons.description_outlined, color: AppColors.accentBlue),
+                icon: const CircleIcon(
+                  icon: Icons.description_outlined,
+                  color: AppColors.accentBlue,
+                ),
                 iconColor: AppColors.accentBlue,
                 title: l10n.termsOfUse,
                 onTap: () => SettingsActionsService.openTermsOfUse(context),
-                trailing: Icon(Icons.chevron_right_rounded, color: context.secondaryText, size: 22),
+                trailing: Icon(
+                  Icons.chevron_right_rounded,
+                  color: context.secondaryText,
+                  size: 22,
+                ),
               ),
               SettingsTile(
-                icon: const CircleIcon(icon: Icons.info_outline_rounded, color: AppColors.accentBlue),
+                icon: const CircleIcon(
+                  icon: Icons.info_outline_rounded,
+                  color: AppColors.accentBlue,
+                ),
                 iconColor: AppColors.accentBlue,
                 title: l10n.versionLabel(AppInfoService.version),
                 showDivider: false,

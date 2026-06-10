@@ -9,7 +9,6 @@ import 'core/theme/app_theme.dart';
 import 'screens/splash/splash_screen.dart';
 import 'services/app_info_service.dart';
 import 'services/app_open_ad_service.dart';
-import 'services/consent_service.dart';
 import 'services/locale_service.dart';
 import 'services/preferences_service.dart';
 import 'util/global.dart';
@@ -22,7 +21,6 @@ Future<void> main() async {
   await PreferencesService.init();
   await AppInfoService.init();
   await AppController.instance.initialize();
-  await ConsentService.requestConsent();
   await _initAds();
 
   await SystemChrome.setPreferredOrientations([

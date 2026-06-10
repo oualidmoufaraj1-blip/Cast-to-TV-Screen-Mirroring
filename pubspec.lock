@@ -222,7 +222,7 @@ packages:
     source: sdk
     version: "0.0.0"
   google_mobile_ads:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: google_mobile_ads
       sha256: "50549f6c945d7a445d53c04f34d025b1a1723fbd02719de9e67de432e2597f40"
