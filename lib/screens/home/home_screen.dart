@@ -6,7 +6,6 @@ import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/utils/responsive.dart';
 import '../../l10n/l10n_extension.dart';
-import '../../widgets/banner_ad_bar.dart';
 import '../../widgets/cast_icon_painter.dart';
 import '../../widgets/shared_widgets.dart';
 
@@ -52,7 +51,6 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: const BannerAdBar(placement: 'home'),
     );
   }
 

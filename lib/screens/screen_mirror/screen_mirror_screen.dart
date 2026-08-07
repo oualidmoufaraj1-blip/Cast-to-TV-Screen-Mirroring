@@ -8,7 +8,6 @@ import '../../l10n/l10n_extension.dart';
 import '../../services/haptic_service.dart';
 import '../../services/screen_mirror_service.dart';
 import '../../widgets/airplay_widgets.dart';
-import '../../widgets/banner_ad_bar.dart';
 import '../../widgets/empty_state.dart';
 import 'screen_mirror_instructions_screen.dart';
 
@@ -322,7 +321,6 @@ class _ScreenMirrorScreenState extends State<ScreenMirrorScreen> {
           ),
         ],
       ),
-      bottomNavigationBar: const BannerAdBar(placement: 'mirror'),
     );
   }
 }

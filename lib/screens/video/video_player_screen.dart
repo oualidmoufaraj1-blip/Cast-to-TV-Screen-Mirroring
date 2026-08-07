@@ -87,7 +87,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
         foregroundColor: Colors.white,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new_rounded, size: 20),
-          onPressed: () => NavigationHelper.popWithInterstitial(context),
+          onPressed: () => NavigationHelper.pop(context),
         ),
         title: Text(
           l10n.videoPlayer,

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../core/theme/app_theme.dart';
 import '../../l10n/l10n_extension.dart';
 import '../../widgets/airplay_widgets.dart';
-import '../../widgets/banner_ad_bar.dart';
 
 class ScreenMirrorInstructionsScreen extends StatelessWidget {
   const ScreenMirrorInstructionsScreen({super.key});
@@ -77,7 +76,6 @@ class ScreenMirrorInstructionsScreen extends StatelessWidget {
           ),
         ],
       ),
-      bottomNavigationBar: const BannerAdBar(placement: 'mirror_guide'),
     );
   }
 }

@@ -8,7 +8,6 @@ import '../../core/utils/url_helper.dart';
 import '../../l10n/l10n_extension.dart';
 import '../../services/haptic_service.dart';
 import '../../widgets/airplay_widgets.dart';
-import '../../widgets/banner_ad_bar.dart';
 import '../../widgets/empty_state.dart';
 
 class BrowserScreen extends StatefulWidget {
@@ -251,7 +250,6 @@ class _BrowserScreenState extends State<BrowserScreen> {
           ),
         ],
       ),
-      bottomNavigationBar: const BannerAdBar(placement: 'browser'),
     );
   }
 }

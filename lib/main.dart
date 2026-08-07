@@ -15,12 +15,6 @@ Future<void> main() async {
   await AppInfoService.init();
   await AppController.instance.initialize();
 
-  // Ads are not initialized from remote config.
-  // Guideline 5.6: do not load monetization/feature gates from a mutable URL
-  // (e.g. Google Drive) that can differ between App Review and production.
-  // Optional local ads may be re-enabled later via a shipped asset + production
-  // AdMob IDs only — never via a post-review mutable remote file.
-
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../core/theme/app_theme.dart';
 import '../../l10n/l10n_extension.dart';
 import '../../widgets/airplay_widgets.dart';
-import '../../widgets/banner_ad_bar.dart';
 import '../connect/connect_screen.dart';
 
 class RemoteControlScreen extends StatelessWidget {
@@ -99,7 +98,6 @@ class RemoteControlScreen extends StatelessWidget {
           ),
         ],
       ),
-      bottomNavigationBar: const BannerAdBar(placement: 'remote'),
     );
   }
 }

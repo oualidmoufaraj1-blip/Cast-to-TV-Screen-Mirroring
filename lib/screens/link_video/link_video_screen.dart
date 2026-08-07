@@ -6,7 +6,6 @@ import '../../core/utils/link_validator.dart';
 import '../../core/utils/responsive.dart';
 import '../../l10n/l10n_extension.dart';
 import '../../services/haptic_service.dart';
-import '../../widgets/banner_ad_bar.dart';
 import '../../widgets/empty_state.dart';
 import '../browser/browser_screen.dart';
 
@@ -83,7 +82,7 @@ class _LinkVideoScreenState extends State<LinkVideoScreen> {
         surfaceTintColor: Colors.transparent,
         leading: IconButton(
           icon: Icon(Icons.arrow_back_ios_new_rounded, size: 20, color: context.primaryText),
-          onPressed: () => NavigationHelper.popWithInterstitial(context),
+          onPressed: () => NavigationHelper.pop(context),
         ),
         title: Text(
           label,
@@ -141,7 +140,6 @@ class _LinkVideoScreenState extends State<LinkVideoScreen> {
           ),
         ],
       ),
-      bottomNavigationBar: const BannerAdBar(placement: 'link_video'),
     );
   }
 }

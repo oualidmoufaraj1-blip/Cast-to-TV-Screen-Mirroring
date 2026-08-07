@@ -200,7 +200,7 @@ class FeatureAppBar extends StatelessWidget implements PreferredSizeWidget {
           size: 20,
           color: context.primaryText,
         ),
-        onPressed: () => NavigationHelper.popWithInterstitial(context),
+        onPressed: () => NavigationHelper.pop(context),
       ),
       title: Text(
         title,

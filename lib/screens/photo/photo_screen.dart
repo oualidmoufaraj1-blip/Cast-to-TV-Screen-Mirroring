@@ -6,7 +6,6 @@ import '../../l10n/l10n_extension.dart';
 import '../../services/haptic_service.dart';
 import '../../services/media_picker_service.dart';
 import '../../widgets/airplay_widgets.dart';
-import '../../widgets/banner_ad_bar.dart';
 import '../../widgets/empty_state.dart';
 import 'photo_preview_screen.dart';
 
@@ -125,7 +124,6 @@ class _PhotoScreenState extends State<PhotoScreen> {
           ),
         ],
       ),
-      bottomNavigationBar: const BannerAdBar(placement: 'photo'),
     );
   }
 }

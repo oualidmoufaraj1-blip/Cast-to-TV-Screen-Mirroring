@@ -12,8 +12,7 @@ import '../../screens/video/video_screen.dart';
 import '../../services/haptic_service.dart';
 import '../utils/link_validator.dart';
 
-/// Feature navigation — always the same in review and production.
-/// Do not gate screens behind ads (Guideline 5.6).
+/// Feature navigation entry points.
 class FeatureActions {
   FeatureActions();
 

@@ -6,7 +6,6 @@ import '../../l10n/l10n_extension.dart';
 import '../../services/haptic_service.dart';
 import '../../services/media_picker_service.dart';
 import '../../widgets/airplay_widgets.dart';
-import '../../widgets/banner_ad_bar.dart';
 import '../../widgets/empty_state.dart';
 import 'video_player_screen.dart';
 
@@ -146,7 +145,6 @@ class _VideoScreenState extends State<VideoScreen> {
           ),
         ],
       ),
-      bottomNavigationBar: const BannerAdBar(placement: 'video'),
     );
   }
 }

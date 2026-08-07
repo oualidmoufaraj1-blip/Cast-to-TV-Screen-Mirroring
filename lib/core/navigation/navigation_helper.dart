@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-/// Navigation helpers. Do not insert ads on back navigation (Guideline 5.6).
+/// Shared navigation helpers.
 abstract final class NavigationHelper {
-  static Future<void> popWithInterstitial(BuildContext context) async {
+  static Future<void> pop(BuildContext context) async {
     if (context.mounted) {
       Navigator.of(context).pop();
     }

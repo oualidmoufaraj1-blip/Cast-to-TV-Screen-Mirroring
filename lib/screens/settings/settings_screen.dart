@@ -13,7 +13,6 @@ import '../../services/locale_service.dart';
 import '../../services/preferences_service.dart';
 import '../../services/settings_actions_service.dart';
 import '../../services/theme_service.dart';
-import '../../widgets/banner_ad_bar.dart';
 import '../../widgets/shared_widgets.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -174,7 +173,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             size: 20,
             color: context.primaryText,
           ),
-          onPressed: () => NavigationHelper.popWithInterstitial(context),
+          onPressed: () => NavigationHelper.pop(context),
         ),
         title: Text(
           l10n.settings,
@@ -398,7 +397,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ),
         ],
       ),
-      bottomNavigationBar: const BannerAdBar(placement: 'settings'),
     );
   }
 }

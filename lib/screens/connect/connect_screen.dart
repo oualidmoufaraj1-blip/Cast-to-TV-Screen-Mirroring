@@ -4,7 +4,6 @@ import '../../core/theme/app_theme.dart';
 import '../../core/utils/responsive.dart';
 import '../../l10n/l10n_extension.dart';
 import '../../widgets/airplay_widgets.dart';
-import '../../widgets/banner_ad_bar.dart';
 import '../../widgets/empty_state.dart';
 import '../screen_mirror/screen_mirror_instructions_screen.dart';
 
@@ -115,7 +114,6 @@ class ConnectScreen extends StatelessWidget {
           ),
         ],
       ),
-      bottomNavigationBar: const BannerAdBar(placement: 'connect'),
     );
   }
 }
