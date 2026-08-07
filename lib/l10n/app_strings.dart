@@ -20,10 +20,10 @@ class AppStrings {
 
   // Common
   String get appName => _t({
-    'en': 'Cast to TV',
-    'fr': 'Cast to TV',
-    'es': 'Cast to TV',
-    'ar': 'Cast to TV',
+    'en': 'Cast To TV',
+    'fr': 'Cast To TV',
+    'es': 'Cast To TV',
+    'ar': 'Cast To TV',
   });
 
   String get screenMirroring => _t({
@@ -79,10 +79,10 @@ class AppStrings {
   String get vimeo => 'Vimeo';
 
   String get remoteControl => _t({
-    'en': 'Remote Control',
-    'fr': 'Télécommande',
-    'es': 'Control remoto',
-    'ar': 'التحكم عن بُعد',
+    'en': 'TV Remote Guide',
+    'fr': 'Guide télécommande',
+    'es': 'Guía de mando',
+    'ar': 'دليل التحكم',
   });
 
   String get settings => _t({
@@ -186,10 +186,10 @@ class AppStrings {
   });
 
   String get mirrorPhoneSubtitle => _t({
-    'en': "Mirror phone's screen to TV",
-    'fr': 'Dupliquer l’écran du téléphone sur la TV',
-    'es': 'Duplica la pantalla del teléfono en la TV',
-    'ar': 'اعكس شاشة الهاتف على التلفاز',
+    'en': 'Control Center mirroring or Wi‑Fi browser mirror',
+    'fr': 'Miroir Centre de contrôle ou navigateur Wi‑Fi',
+    'es': 'Duplicación del Centro de control o navegador Wi‑Fi',
+    'ar': 'انعكاس مركز التحكم أو متصفح Wi‑Fi',
   });
 
   String get tvCast => _t({
@@ -249,13 +249,13 @@ class AppStrings {
 
   String get onboarding1Body => _t({
     'en':
-        'Choose photos or videos from your iPhone and use AirPlay to play them on your TV.',
+        'Play library videos with AirPlay external playback. To show a photo on the TV, keep it on screen and use Control Center Screen Mirroring.',
     'fr':
-        'Choisissez des photos ou vidéos sur votre iPhone et utilisez AirPlay pour les lire sur votre TV.',
+        'Lisez les vidéos avec AirPlay. Pour une photo, gardez-la à l’écran et utilisez le Miroir d’écran du Centre de contrôle.',
     'es':
-        'Elige fotos o videos de tu iPhone y usa AirPlay para reproducirlos en tu TV.',
+        'Reproduce videos con AirPlay. Para una foto, mantenla en pantalla y usa Duplicar pantalla en el Centro de control.',
     'ar':
-        'اختر الصور أو الفيديو من هاتفك واستخدم AirPlay لتشغيلها على التلفاز.',
+        'شغّل فيديو المكتبة عبر AirPlay. لعرض صورة، أبقِها على الشاشة واستخدم انعكاس الشاشة من مركز التحكم.',
   });
 
   String get onboarding2Title => connectToTv;
@@ -273,13 +273,13 @@ class AppStrings {
   String get onboarding3Title => screenMirroring;
   String get onboarding3Body => _t({
     'en':
-        'Mirror your screen with AirPlay from Control Center, or start Wi‑Fi browser mirroring and open the link on your smart TV.',
+        'For the full device screen, use Control Center → Screen Mirroring. Or start Wi‑Fi browser mirror to share this app’s screen to a smart TV browser on the same Wi‑Fi.',
     'fr':
-        'Miroir d’écran via AirPlay depuis le Centre de contrôle, ou démarrez le miroir navigateur Wi‑Fi et ouvrez le lien sur votre smart TV.',
+        'Pour tout l’écran, utilisez Centre de contrôle → Miroir d’écran. Ou démarrez le miroir navigateur Wi‑Fi pour partager l’écran de cette app.',
     'es':
-        'Duplica tu pantalla con AirPlay desde el Centro de control, o inicia la duplicación por navegador Wi‑Fi y abre el enlace en tu smart TV.',
+        'Para toda la pantalla, usa Centro de control → Duplicar pantalla. O inicia la duplicación Wi‑Fi para compartir la pantalla de esta app.',
     'ar':
-        'اعكس شاشتك عبر AirPlay من مركز التحكم، أو ابدأ انعكاس المتصفح عبر Wi‑Fi وافتح الرابط على التلفاز الذكي.',
+        'لشاشة الجهاز بالكامل استخدم مركز التحكم ← انعكاس الشاشة. أو ابدأ انعكاس متصفح Wi‑Fi لمشاركة شاشة هذا التطبيق.',
   });
 
   // Connect screen
@@ -399,13 +399,13 @@ class AppStrings {
 
   String get mirroringBannerBody => _t({
     'en':
-        'Mirror via AirPlay from Control Center, or stream your screen to a smart TV browser on the same Wi‑Fi.',
+        'Use Control Center for system Screen Mirroring, or Wi‑Fi browser mirror to stream this app’s screen to a TV browser on the same Wi‑Fi.',
     'fr':
-        'Miroir via AirPlay depuis le Centre de contrôle, ou diffusez votre écran vers le navigateur TV sur le même Wi‑Fi.',
+        'Utilisez le Centre de contrôle pour le miroir système, ou le miroir navigateur Wi‑Fi pour l’écran de cette app.',
     'es':
-        'Duplica vía AirPlay desde el Centro de control, o transmite tu pantalla al navegador de la TV en la misma Wi‑Fi.',
+        'Usa el Centro de control para la duplicación del sistema, o la duplicación Wi‑Fi para la pantalla de esta app.',
     'ar':
-        'اعكس عبر AirPlay من مركز التحكم، أو بث شاشتك إلى متصفح التلفاز على نفس شبكة Wi‑Fi.',
+        'استخدم مركز التحكم لانعكاس النظام، أو انعكاس متصفح Wi‑Fi لبث شاشة هذا التطبيق.',
   });
 
   String get airPlayMirrorStatus => _t({
@@ -445,27 +445,27 @@ class AppStrings {
 
   String get wifiTvMirrorBody => _t({
     'en':
-        'Start mirroring, then open the link below in your TV web browser (Samsung, LG, etc.).',
+        'Streams this app’s screen over your Wi‑Fi to a TV browser. For the full iPhone screen (other apps and Home Screen), use Control Center → Screen Mirroring instead.',
     'fr':
-        'Démarrez le miroir, puis ouvrez le lien ci-dessous dans le navigateur web de votre TV (Samsung, LG, etc.).',
+        'Diffuse l’écran de cette app en Wi‑Fi vers un navigateur TV. Pour tout l’iPhone, utilisez Centre de contrôle → Miroir d’écran.',
     'es':
-        'Inicia la duplicación y abre el enlace en el navegador web de tu TV (Samsung, LG, etc.).',
+        'Transmite la pantalla de esta app por Wi‑Fi al navegador de la TV. Para todo el iPhone, usa Centro de control → Duplicar pantalla.',
     'ar':
-        'ابدأ الانعكاس ثم افتح الرابط أدناه في متصفح التلفاز (Samsung، LG، إلخ).',
+        'يبث شاشة هذا التطبيق عبر Wi‑Fi إلى متصفح التلفاز. لشاشة الآيفون بالكامل استخدم مركز التحكم ← انعكاس الشاشة.',
   });
 
   String get startMirroring => _t({
-    'en': 'Start screen mirroring',
-    'fr': 'Démarrer le miroir d’écran',
-    'es': 'Iniciar duplicación de pantalla',
-    'ar': 'بدء انعكاس الشاشة',
+    'en': 'Start Wi‑Fi browser mirror',
+    'fr': 'Démarrer le miroir navigateur Wi‑Fi',
+    'es': 'Iniciar duplicación por navegador Wi‑Fi',
+    'ar': 'بدء انعكاس متصفح Wi‑Fi',
   });
 
   String get stopMirroring => _t({
-    'en': 'Stop screen mirroring',
-    'fr': 'Arrêter le miroir d’écran',
-    'es': 'Detener duplicación de pantalla',
-    'ar': 'إيقاف انعكاس الشاشة',
+    'en': 'Stop Wi‑Fi browser mirror',
+    'fr': 'Arrêter le miroir navigateur Wi‑Fi',
+    'es': 'Detener duplicación por navegador Wi‑Fi',
+    'ar': 'إيقاف انعكاس متصفح Wi‑Fi',
   });
 
   String get mirrorUrlLabel => _t({
@@ -491,12 +491,12 @@ class AppStrings {
 
   String get mirrorStartFailed => _t({
     'en':
-        'Could not start screen mirroring. Allow screen recording when prompted.',
+        'Could not start Wi‑Fi browser mirror. Allow Screen Recording when prompted, and stay on Wi‑Fi.',
     'fr':
-        'Impossible de démarrer le miroir. Autorisez l’enregistrement d’écran lorsque demandé.',
+        'Impossible de démarrer le miroir navigateur. Autorisez l’enregistrement d’écran et restez en Wi‑Fi.',
     'es':
-        'No se pudo iniciar la duplicación. Permite la grabación de pantalla cuando se solicite.',
-    'ar': 'تعذر بدء الانعكاس. اسمح بتسجيل الشاشة عند الطلب.',
+        'No se pudo iniciar la duplicación por navegador. Permite Grabación de pantalla y permanece en Wi‑Fi.',
+    'ar': 'تعذر بدء انعكاس المتصفح. اسمح بتسجيل الشاشة وابقَ على Wi‑Fi.',
   });
 
   String get airPlayMirrorSection => _t({
@@ -545,13 +545,13 @@ class AppStrings {
 
   String get mirroringWarning => _t({
     'en':
-        'AirPlay mirroring is started from Control Center. Wi‑Fi browser mirroring requires the same Wi‑Fi network on phone and TV.',
+        'This app cannot start system Screen Mirroring. Use Control Center → Screen Mirroring for the full device. Wi‑Fi browser mirror shares this app’s screen on the same Wi‑Fi only.',
     'fr':
-        'Le miroir AirPlay se lance depuis le Centre de contrôle. Le miroir navigateur Wi‑Fi nécessite le même réseau Wi‑Fi.',
+        'Cette app ne peut pas démarrer le Miroir d’écran système. Utilisez le Centre de contrôle pour tout l’appareil. Le miroir navigateur Wi‑Fi partage l’écran de cette app.',
     'es':
-        'La duplicación AirPlay se inicia desde el Centro de control. La duplicación por navegador Wi‑Fi requiere la misma red Wi‑Fi.',
+        'Esta app no puede iniciar la duplicación del sistema. Usa el Centro de control para todo el dispositivo. La duplicación Wi‑Fi comparte la pantalla de esta app.',
     'ar':
-        'يبدأ انعكاس AirPlay من مركز التحكم. انعكاس المتصفح عبر Wi‑Fi يتطلب نفس شبكة Wi‑Fi للهاتف والتلفاز.',
+        'لا يمكن لهذا التطبيق بدء انعكاس شاشة النظام. استخدم مركز التحكم لشاشة الجهاز بالكامل. انعكاس متصفح Wi‑Fi يشارك شاشة هذا التطبيق فقط.',
   });
 
   String get viewDetailedInstructions => _t({
@@ -571,12 +571,13 @@ class AppStrings {
 
   String get choosePhotoMessage => _t({
     'en':
-        'Choose a photo from your library to preview it and cast with AirPlay.',
+        'Choose a photo to preview fullscreen. To show it on a TV, use Control Center → Screen Mirroring while the photo is visible.',
     'fr':
-        'Choisissez une photo dans votre bibliothèque pour la prévisualiser et la diffuser avec AirPlay.',
+        'Choisissez une photo en plein écran. Pour la TV, utilisez Miroir d’écran (Centre de contrôle) pendant l’affichage.',
     'es':
-        'Elige una foto de tu biblioteca para previsualizarla y transmitirla con AirPlay.',
-    'ar': 'اختر صورة من مكتبتك لمعاينتها وبثها عبر AirPlay.',
+        'Elige una foto a pantalla completa. Para la TV, usa Duplicar pantalla en el Centro de control mientras se ve.',
+    'ar':
+        'اختر صورة بملء الشاشة. للعرض على التلفاز استخدم انعكاس الشاشة من مركز التحكم أثناء ظهورها.',
   });
 
   String get choosePhoto => _t({
@@ -624,11 +625,14 @@ class AppStrings {
   });
 
   String get tapAirplayPhoto => _t({
-    'en': 'Tap AirPlay to show this photo on a compatible device.',
+    'en':
+        'Still photos are not sent as a separate AirPlay photo session. Keep this photo on screen and use Control Center → Screen Mirroring.',
     'fr':
-        'Touchez AirPlay pour afficher cette photo sur un appareil compatible.',
-    'es': 'Toca AirPlay para mostrar esta foto en un dispositivo compatible.',
-    'ar': 'اضغط AirPlay لعرض هذه الصورة على جهاز متوافق.',
+        'Les photos ne sont pas envoyées en session AirPlay séparée. Gardez la photo à l’écran et utilisez le Miroir d’écran.',
+    'es':
+        'Las fotos no se envían como sesión AirPlay aparte. Mantén la foto en pantalla y usa Duplicar pantalla.',
+    'ar':
+        'الصور لا تُرسل كجلسة AirPlay منفصلة. أبقِ الصورة على الشاشة واستخدم انعكاس الشاشة من مركز التحكم.',
   });
 
   String get chooseAirplayDevice => _t({
@@ -766,7 +770,7 @@ class AppStrings {
   });
 
   String get castToTv => _t({
-    'en': 'Cast to TV',
+    'en': 'Cast To TV',
     'fr': 'Diffuser sur la TV',
     'es': 'Transmitir a la TV',
     'ar': 'البث إلى التلفاز',
@@ -836,13 +840,13 @@ class AppStrings {
   // Link video
   String pasteLinkDescription(String label) => _t({
     'en':
-        'Paste a $label video link to open it in the in-app browser. You can then use AirPlay from the browser toolbar to cast to your TV.',
+        'Paste a $label link to open it in the in-app browser. This app is not affiliated with $label. To show the page on a TV, use Control Center → Screen Mirroring while browsing (site cast features vary).',
     'fr':
-        'Collez un lien vidéo $label pour l’ouvrir dans le navigateur intégré. Vous pourrez ensuite utiliser AirPlay depuis la barre d’outils pour diffuser sur votre TV.',
+        'Collez un lien $label dans le navigateur intégré. Pas d’affiliation avec $label. Pour la TV, utilisez le Miroir d’écran pendant la navigation.',
     'es':
-        'Pega un enlace de video de $label para abrirlo en el navegador integrado. Luego puedes usar AirPlay desde la barra de herramientas para transmitir a tu TV.',
+        'Pega un enlace de $label en el navegador. Sin afiliación con $label. Para la TV, usa Duplicar pantalla mientras navegas.',
     'ar':
-        'الصق رابط فيديو $label لفتحه في المتصفح داخل التطبيق. ثم يمكنك استخدام AirPlay من شريط الأدوات للبث إلى التلفاز.',
+        'الصق رابط $label لفتحه في المتصفح. لا توجد علاقة رسمية مع $label. للعرض على التلفاز استخدم انعكاس الشاشة أثناء التصفح.',
   });
 
   String linkLabel(String label) => _t({
@@ -889,10 +893,10 @@ class AppStrings {
 
   // Remote
   String get aboutRemote => _t({
-    'en': 'About TV remote control',
-    'fr': 'À propos de la télécommande TV',
-    'es': 'Acerca del control remoto de TV',
-    'ar': 'حول التحكم عن بُعد بالتلفاز',
+    'en': 'About this guide',
+    'fr': 'À propos de ce guide',
+    'es': 'Acerca de esta guía',
+    'ar': 'حول هذا الدليل',
   });
 
   String get aboutRemoteBody => _t({
@@ -954,13 +958,13 @@ class AppStrings {
 
   String get connectFirstBody => _t({
     'en':
-        'Remote-style controls work best after you connect to a TV via AirPlay.',
+        'These tips refer to system controls (Control Center / Apple TV Remote). This screen does not provide in-app remote buttons.',
     'fr':
-        'Les contrôles de type télécommande fonctionnent mieux après connexion à une TV via AirPlay.',
+        'Ces conseils concernent les contrôles système. Cet écran n’offre pas de boutons de télécommande dans l’app.',
     'es':
-        'Los controles tipo remoto funcionan mejor después de conectar a una TV vía AirPlay.',
+        'Estos consejos son de controles del sistema. Esta pantalla no ofrece botones de mando en la app.',
     'ar':
-        'تعمل عناصر التحكم عن بُعد بشكل أفضل بعد الاتصال بالتلفاز عبر AirPlay.',
+        'هذه النصائح لعناصر تحكم النظام. هذه الشاشة لا توفر أزرار تحكم داخل التطبيق.',
   });
 
   String get pickAirplayDevice => _t({

@@ -9,10 +9,11 @@ import '../../screens/remote/remote_control_screen.dart';
 import '../../screens/screen_mirror/screen_mirror_screen.dart';
 import '../../screens/settings/settings_screen.dart';
 import '../../screens/video/video_screen.dart';
-import '../../services/fullscreen_ad_service.dart';
 import '../../services/haptic_service.dart';
 import '../utils/link_validator.dart';
 
+/// Feature navigation — always the same in review and production.
+/// Do not gate screens behind ads (Guideline 5.6).
 class FeatureActions {
   FeatureActions();
 
@@ -20,7 +21,6 @@ class FeatureActions {
 
   Future<void> openOnboarding(BuildContext context) async {
     await _tap(context);
-    await FullScreenAdService.showInterstitial();
     if (!context.mounted) return;
     await Navigator.of(context).push(
       MaterialPageRoute<void>(
@@ -31,7 +31,6 @@ class FeatureActions {
 
   Future<void> openSettings(BuildContext context) async {
     await _tap(context);
-    await FullScreenAdService.showInterstitial();
     if (!context.mounted) return;
     await Navigator.of(context).push(
       MaterialPageRoute<void>(builder: (_) => const SettingsScreen()),
@@ -40,7 +39,6 @@ class FeatureActions {
 
   Future<void> openConnect(BuildContext context) async {
     await _tap(context);
-    await FullScreenAdService.showRewarded();
     if (!context.mounted) return;
     await Navigator.of(context).push(
       MaterialPageRoute<void>(builder: (_) => const ConnectScreen()),
@@ -49,7 +47,6 @@ class FeatureActions {
 
   Future<void> openCastConnectionGuide(BuildContext context) async {
     await _tap(context);
-    await FullScreenAdService.showInterstitial();
     if (!context.mounted) return;
     await Navigator.of(context).push(
       MaterialPageRoute<void>(builder: (_) => const ConnectScreen()),
@@ -58,7 +55,6 @@ class FeatureActions {
 
   Future<void> openScreenMirror(BuildContext context) async {
     await _tap(context);
-    await FullScreenAdService.showRewarded();
     if (!context.mounted) return;
     await Navigator.of(context).push(
       MaterialPageRoute<void>(builder: (_) => const ScreenMirrorScreen()),
@@ -67,7 +63,6 @@ class FeatureActions {
 
   Future<void> openRemoteControl(BuildContext context) async {
     await _tap(context);
-    await FullScreenAdService.showInterstitial();
     if (!context.mounted) return;
     await Navigator.of(context).push(
       MaterialPageRoute<void>(builder: (_) => const RemoteControlScreen()),
@@ -76,22 +71,22 @@ class FeatureActions {
 
   Future<void> openYoutube(BuildContext context) async {
     await _tap(context);
-    await FullScreenAdService.showInterstitial();
     if (!context.mounted) return;
     await Navigator.of(context).push(
       MaterialPageRoute<void>(
-        builder: (_) => const LinkVideoScreen(platform: LinkVideoPlatform.youtube),
+        builder: (_) =>
+            const LinkVideoScreen(platform: LinkVideoPlatform.youtube),
       ),
     );
   }
 
   Future<void> openVimeo(BuildContext context) async {
     await _tap(context);
-    await FullScreenAdService.showInterstitial();
     if (!context.mounted) return;
     await Navigator.of(context).push(
       MaterialPageRoute<void>(
-        builder: (_) => const LinkVideoScreen(platform: LinkVideoPlatform.vimeo),
+        builder: (_) =>
+            const LinkVideoScreen(platform: LinkVideoPlatform.vimeo),
       ),
     );
   }
@@ -106,7 +101,6 @@ class FeatureActions {
 
   Future<void> openPhoto(BuildContext context) async {
     await _tap(context);
-    await FullScreenAdService.showInterstitial();
     if (!context.mounted) return;
     await Navigator.of(context).push(
       MaterialPageRoute<void>(builder: (_) => const PhotoScreen()),
@@ -115,7 +109,6 @@ class FeatureActions {
 
   Future<void> openVideo(BuildContext context) async {
     await _tap(context);
-    await FullScreenAdService.showInterstitial();
     if (!context.mounted) return;
     await Navigator.of(context).push(
       MaterialPageRoute<void>(builder: (_) => const VideoScreen()),

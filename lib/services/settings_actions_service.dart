@@ -13,10 +13,11 @@ class SettingsActionsService {
     final l10n = context.l10n;
     await HapticService.lightImpact();
     if (!context.mounted) return;
-    await Share.share(
-      '${l10n.castToTv}\n${AppConstants.appStoreUrl}',
-      subject: l10n.appName,
-    );
+    final storeUrl = AppConstants.appStoreUrl.trim();
+    final message = storeUrl.isEmpty
+        ? l10n.castToTv
+        : '${l10n.castToTv}\n$storeUrl';
+    await Share.share(message, subject: l10n.appName);
   }
 
   static Future<void> contactUs(BuildContext context) async {

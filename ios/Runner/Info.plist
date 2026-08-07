@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Cast to TV + Screen Mirroring</string>
+	<string>Cast To TV - Screen Mirroring</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Cast to TV</string>
+	<string>Cast To TV</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -24,8 +24,6 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
-	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-3940256099942544~1458002511</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSBonjourServices</key>
@@ -35,9 +33,9 @@
 		<string>_http._tcp</string>
 	</array>
 	<key>NSLocalNetworkUsageDescription</key>
-	<string>This app uses your local network to discover AirPlay-compatible TVs and streaming devices on the same WiFi network.</string>
+	<string>Cast To TV - Screen Mirroring uses the local network to work with AirPlay route options and to share a temporary Wi‑Fi browser mirror link with a TV on the same Wi‑Fi network.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Allow access to your photo library so you can select photos and videos to preview and cast to your TV via AirPlay.</string>
+	<string>Cast To TV - Screen Mirroring needs photo library access so you can choose photos to preview and videos to play with AirPlay external playback.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

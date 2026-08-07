@@ -4,7 +4,6 @@ import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/utils/responsive.dart';
 import '../../l10n/l10n_extension.dart';
-import '../../services/fullscreen_ad_service.dart';
 import '../../services/haptic_service.dart';
 import '../../services/preferences_service.dart';
 import '../home/home_screen.dart';
@@ -42,7 +41,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   Future<void> _finish({required bool skipped}) async {
     await HapticService.mediumImpact();
-    await FullScreenAdService.showRewarded();
     if (!mounted) return;
 
     if (widget.markCompleteOnFinish) {

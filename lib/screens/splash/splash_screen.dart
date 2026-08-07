@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../../core/theme/app_colors.dart';
-import '../../services/app_open_ad_service.dart';
 import '../../services/preferences_service.dart';
 import '../home/home_screen.dart';
 import '../onboarding/onboarding_screen.dart';
@@ -29,15 +28,6 @@ class _SplashScreenState extends State<SplashScreen> {
     if (!mounted) return;
 
     final completed = PreferencesService.instance.isOnboardingCompleted;
-
-    // First launch: skip app open ad for better UX and App Store safety.
-    if (completed) {
-      await AppOpenAdService.showOnLaunchIfAvailable(
-        onboardingCompleted: true,
-      );
-    }
-    if (!mounted) return;
-
     final nextScreen = completed ? HomeScreen() : const OnboardingScreen();
 
     await Navigator.of(context).pushReplacement(

@@ -1,49 +1,13 @@
-import 'dart:async';
-
-import 'package:multiads/multiads.dart';
-
-import '../util/global.dart';
-
-/// Shows interstitial and rewarded ads with safe fallbacks.
+/// Full-screen ads are disabled. Methods are no-ops so any leftover call sites
+/// cannot create review/production differences (Guideline 5.6).
 class FullScreenAdService {
   FullScreenAdService._();
 
   static Future<void> showInterstitial({
     Duration dismissTimeout = const Duration(seconds: 60),
-  }) async {
-    if (!gAdsReady || !gAds.hasInterstitials || isInterShowed) {
-      return;
-    }
-
-    final completer = Completer<void>();
-
-    void onFinished() {
-      if (!completer.isCompleted) completer.complete();
-    }
-
-    AdCallbacks.onInterstitialDismissed = onFinished;
-    try {
-      gAds.interInstance.showInterstitialAd();
-      await completer.future.timeout(dismissTimeout, onTimeout: onFinished);
-    } finally {
-      AdCallbacks.onInterstitialDismissed = null;
-    }
-  }
+  }) async {}
 
   static Future<void> showRewarded({
     Duration dismissTimeout = const Duration(seconds: 60),
-  }) async {
-    if (!gAdsReady || !gAds.hasRewarded || isInterShowed) {
-      return;
-    }
-
-    final completer = Completer<void>();
-
-    void onFinished() {
-      if (!completer.isCompleted) completer.complete();
-    }
-
-    gAds.rewardInstance.showRewardAd(onFinished);
-    await completer.future.timeout(dismissTimeout, onTimeout: onFinished);
-  }
+  }) async {}
 }
